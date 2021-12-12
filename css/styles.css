@@ -1,0 +1,1027 @@
+
+/*--------------------------------------------------------------
+# Sizing
+
+<576 potrait mobile
+>576 landscape mobile
+>768 potrait tablets navbar collapse
+>992 landscape tablets
+>1200 laptops
+--------------------------------------------------------------*/
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+}
+
+
+@media (max-width: 800px) {
+  section {
+    padding: 5rem 0;
+  }
+  #homequote{
+    background-color: #BDB1FF;
+    font-family: "Poppins";
+    color: white;
+    font-size: 15px;
+    font-weight:400;
+    width:380px;
+    height:130px;
+    position: absolute;
+    bottom: 30%;
+    padding: 20px;
+  }
+  .timeline-badge {
+    display: none;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 16px;
+    right: -3px;
+    margin-left: -25px;
+    
+    background-color: #F0F5FD;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+.timeline1::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+.timeline2::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+.timeline3::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+.timeline4::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+.timeline5::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+  .ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 10%;
+    margin: 0 auto;
+    padding-top: 50px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+  }
+
+  #image-marketing{
+    float:right;
+    width:200px;
+    height:200px;
+  }
+  #image-creative{
+    float:left;
+    width:200px;
+    height:200px;
+  }
+
+  #creative{
+    text-align: left;
+     overflow:hidden;
+   }
+   
+   #marketing{
+    text-align: right;
+      overflow:hidden;
+   }
+
+   #teamm{
+    text-align: right;
+    font-family: "Playfair Display";
+    font-size: 35px;
+    color:#151515;
+  }
+  
+  #teamc{
+    text-align: left;
+    font-family: "Playfair Display";
+    font-size: 35px;
+    color:#151515;
+  }
+  .img{
+    width:auto;
+    height:auto;
+  }
+  .responsive {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media(min-width: 700px) {
+#homequote{
+  background-color: #BDB1FF;
+  font-family: "Poppins";
+  color: white;
+  font-size: 15px;
+  font-weight:400;
+  width:380px;
+  height:130px;
+  position: absolute;
+  bottom: 30%;
+  padding: 20px;
+}
+
+section#About {
+  background-color:white;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:1200px;
+  padding: 30px;
+}
+
+#roadmap1{
+  background-color: #BDB1FF;
+  z-index:3;
+  width:100%;
+}
+
+
+
+.responsive {
+  width: 70%;
+  height: 70%;
+}
+}
+@media (max-width: 480px) {
+  :root {
+    overflow-x: hidden;
+  }
+
+  #image-marketing{
+    float:right;
+    width:150px;
+    height:150px;
+  }
+  #image-creative{
+    float:left;
+    width:150px;
+    height:150px;
+  }
+  #creative{
+    text-align: left;
+     overflow:hidden;
+   }
+   
+   #marketing{
+    text-align: right;
+      overflow:hidden;
+   }
+
+   #teamm{
+    text-align: right;
+    font-family: "Playfair Display";
+    font-size: 25px;
+    color:#151515;
+  }
+  
+  #teamc{
+    text-align: right;
+    font-family: "Playfair Display";
+    font-size: 25px;
+    color:#151515;
+  }
+  .img{
+    width:auto;
+    height:auto;
+  }
+  .responsive {
+    width: 50%;
+    height: 50%;
+  }
+  
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+ 
+  }
+}
+@media (min-width: 1000px) {
+#homequote{
+  background-color: #BDB1FF;
+  font-family: "Poppins";
+  color: white;
+  font-size: 25px;
+  font-weight:400;
+  width:800px;
+  height: 150px;
+  position: absolute;
+  bottom: 20%;
+  padding: 20px;
+  left: 0px;  
+}
+#roadmap1{
+  background-color: #BDB1FF;
+  z-index:3;
+  padding:30px;
+}
+#roadmap2{
+  background-color: #BDB1FF;
+  z-index:3;
+  padding:30px;
+}
+
+#roadmap3{
+  background-color: #BDB1FF;
+  z-index:3;
+  padding:30px;
+}
+
+#roadmap4{
+  background-color: #BDB1FF;
+  z-index:3;
+  padding:30px;
+}
+#roadmap5{
+  background-color: #BDB1FF;
+  z-index:3;
+  padding:30px;
+}
+
+
+#image-marketing{
+  float:right;
+}
+#image-creative{
+  float:left;
+}
+#creative{
+ text-align: left;
+  overflow:hidden;
+}
+#marketing{
+ text-align: right;
+   overflow:hidden;
+}
+#teamm{
+  text-align: right;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  color:#151515;
+}
+
+#teamc{
+  text-align: left;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  color:#151515;
+}
+}
+
+
+/*--------------------------------------------------------------
+# HeroBG
+--------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+section#About {
+  background-color:white;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:850px;
+  padding: 30px;
+}
+#aboutheader{
+  font-family: "Poppins";
+  font-size: 50px;
+  color:#FF4950;
+  text-align:left;
+  
+}
+
+#abtdesc{
+  font-family: "Poppins";
+  font-size: 24px;
+  color:#0B3D69;
+}
+#launch{
+   float:right;
+   font-family: "SF Pro";
+   font-size: 18px;
+   color: #FF7C44;
+   font-weight:bold;
+}
+
+#comic{
+  width: 400px;
+  height: 180px;
+}
+/*--------------------------------------------------------------
+# Photo Gallery
+--------------------------------------------------------------*/
+section#Gallery {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 0rem 0 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+div.gallery ul li:hover {
+	z-index: 5;
+}
+
+/* Image is position nicely under li */
+div.gallery ul li img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0px;
+	width: 130px;
+	height: 130px;
+	background: #f0f0f0;
+}
+
+div.gallery ul li img:hover {
+	width: 200px;
+	height: 200px;
+	margin-top: -130px;
+	margin-left: -130px;
+	top: 65%;
+	left: 65%;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Description
+--------------------------------------------------------------*/
+
+section#description {
+  background-color: #0B3D69;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 0rem 0 0;
+}
+#traitsdiv{
+  padding-left: 200px;
+}
+
+#traitstitle{
+  font-family: "Poppins";
+  font-size:40px;
+  font-weight: 300;
+  color:#ECFE52;
+}
+
+.traits {
+  background-color: #BDB1FF;
+  padding: 40px;
+}
+
+.traits2 {
+  background-color: #2020FF;
+  padding: 70px;
+ 
+}
+#traitsfont{
+  font-family:"Playfair Display";
+  font-size:20px;
+  color:#ECFE52;
+  width: 120%;
+}
+#num{
+  font-family:"Poppins";
+  font-size:20px;
+  color:#ECFE52;
+  font-weight: 300;
+}
+#desc3{
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color:#E4E4E4;
+  text-align: left;
+}
+#desc4{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#E4E4E4;
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+# Roadmap
+--------------------------------------------------------------*/
+
+section#roadmap {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+
+#roadmap1{
+  background-color: #BDB1FF;
+  z-index:3;
+}
+
+
+#p1_0{
+  font-family: "Playfair Display";
+  font-size:80px;
+  color:white;
+}
+#p1_1{
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color:#FDD902;
+}
+
+#p1_2{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#151515;
+}
+
+
+#roadmap2{
+  background-color: #97E1FF;
+}
+
+#p2_0{
+  font-family: "Playfair Display";
+  font-size:80px;
+  color:white;
+}
+#p2_1{
+  font-family: "Playfair Display";
+  font-size: 25px;
+  color:#FF4950;
+}
+
+#p2_2{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#151515;
+}
+
+
+#roadmap3{
+  background-color:#93AB8F;
+}
+
+#p3_0{
+  font-family: "Playfair Display";
+  font-size:80px;
+  color:white;
+}
+#p3_1{
+  font-family: "Playfair Display";
+  font-size: 25px;
+  color:#FBF9F4;
+}
+
+#p3_2{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#151515;
+}
+
+#roadmap4{
+  background-color: #FBE4D1;
+}
+
+#p4_0{
+  font-family: "Playfair Display";
+  font-size:80px;
+  color:#A2A2A2;
+}
+#p4_1{
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color:#006D7A;
+}
+
+#p4_2{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#151515;
+}
+
+
+#roadmap5{
+  background-color:#F3FE62;
+}
+
+#p5_0{
+  font-family: "Playfair Display";
+  font-size:80px;
+  color:#A2A2A2;
+}
+#p5_1{
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color:#FF4950
+}
+
+#p5_2{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#151515;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline1 {
+  position: relative;
+  max-width: 1200px;
+  max-height: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline1::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline2 {
+  position: relative;
+  max-width: 1200px;
+  max-height: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline2::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #97E1FF,#96D3E2, #94B9AC,#93AB8F);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline3 {
+  position: relative;
+  max-width: 1200px;
+  max-height: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline3::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #93AB8F, #AAB79E, #D9D1BB,#FBE4D1);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline4 {
+  position: relative;
+  max-width: 1200px;
+  max-height: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline4::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:428px;
+  background: linear-gradient( #FBE4D1, #F9EAB9, #F5F782,#F3FE62);
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+.timeline5 {
+  position: relative;
+  max-width: 1200px;
+  max-height: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline5::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height:318px;
+  background-color: #F3FE62;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  z-index: 10;
+
+}
+.timeline-badge {
+ 
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  color:white;
+  position: absolute;
+  top: 16px;
+  right: -3px;
+  margin-left: -25px;
+  
+  background-color: #F0F5FD;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# FAQ
+--------------------------------------------------------------*/
+section#faq {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  padding: 0rem 0 0;
+}
+
+#faqdesc{
+  font-family: "Playfair Display";
+  font-size: 20px;
+  color:#000000;
+  text-align: left;
+}
+
+#faq1{
+  background-color:#F5F5F5;
+  padding: 15px;
+}
+
+#faqqn{
+  font-family: "Poppins";
+  font-size:30px;
+  color:#FF67A3;
+  font-weight:550;
+}
+#faqans{
+  font-family: "Poppins";
+  font-size: 16px;
+  color:#363636;
+}
+
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+
+#profilepic{
+  width: 120px;
+  height:120px;
+}
+#teampos{
+  font-family: "Playfair Display";
+  font-size: 22px;
+  color:#33793E;
+  font-weight:bold;
+}
+
+#teamdesc{
+  font-family: "Poppins";
+  font-size: 14px;
+  color:#33793E;
+}
+
+/*--------------------------------------------------------------
+# Terms and Conditions
+--------------------------------------------------------------*/
+#tnc{
+  font-family: "Poppins";
+  font-size: 14 px;
+  color:#151515;
+}
+#tncheader{
+  font-family: "Poppins";
+  font-size: 14 px;
+  color:#151515;
+  font-weight:bold;
+}
+
+
+h1{
+  font-family: "Poppins";
+  font-size: 50px;
+  color:#33793E;
+}
+h2{
+  font-family: "SF Pro";
+  font-size: 50px;
+  color:#4483A9;
+}
+h3{
+  font-family: "Playfair Display";
+  font-size: 50px;
+  color: white;
+}
+
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+}
+
+.spacing{
+  padding: 3rem 0;
+}
+/* Create four equal columns that sits next to each other */
+.columns {
+  flex: 25%;
+  padding: 0 0px;
+}
+
+.columns img {
+  width: 100%;
+}
+
+
+
+
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+#teamm{
+  text-align: right;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  color:#151515;
+}
+
+#teamc{
+  text-align: left;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  color:#151515;
+}
+
+
+
+section#team {
+  background-color: #FBF9F4;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#desc1{
+  font-family: "Playfair Display";
+  font-size: 25px;
+  color:#F3FE62;
+  text-align: left;
+
+}
+#desc2{
+  font-family: "Poppins";
+  font-size: 20px;
+  color:#FFFFFF;
+  text-align: left;
+}
+.footerbadge{
+  width:30px;
+  height:30px;
+}
+.footer {
+  background-color: #33793E;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: white;
+}
+
+.navbar {
+  width: 100%;
+  background-color:transparent;
+  overflow: none;
+}
+ul{
+  margin:0;
+  padding:0;
+  justify-content: right;
+ 
+  word-spacing:0;
+}
+li{
+  
+  list-style-type:none;
+  display:inline-block; 
+  margin-right:.3px;
+
+}
+
+#navigation-list {
+  list-style:none;
+  display:table;
+  width:100%;
+  text-align:right;
+  word-spacing:-.5em;
+  padding-left:0;
+  margin:0;
+}
+
+
+li.navigation-link {
+  display:inline-block;
+  word-spacing:0;
+  font-size:18px;
+  text-decoration:none;
+}
+
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 50px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+
+.block1 {
+  width:400px;
+  height: 40px;
+  position:relative;
+}
+.block1:before {
+  content:"";
+  width:4px;
+  height:250%;
+  left:290%;
+  position:absolute;
+  background-image: -webkit-linear-gradient(top, #BDB1FF, #97E1FF);
+  background-image: -moz-linear-gradient( top,#BDB1FF, #97E1FF);
+  background-image: -ms-linear-gradient( top,#BDB1FF, #97E1FF);
+  background-image: -o-linear-gradient( top,#BDB1FF, #97E1FF);
+  background-image: linear-gradient( top,#BDB1FF, #97E1FF);
+}
+
+.block2 {
+  width:400px;
+  height: 40px;
+  position:relative;
+}
+.block2:before {
+  content:"";
+  width:4px;
+  height:250%;
+  left:290%;
+  position:absolute;
+  background-image: -webkit-linear-gradient(top, #97E1FF, #93AB8F);
+  background-image: -moz-linear-gradient( top, #97E1FF,#93AB8F);
+  background-image: -ms-linear-gradient( top, #97E1FF,#93AB8F);
+  background-image: -o-linear-gradient( top, #97E1FF, #93AB8F);
+  background-image: linear-gradient( top, #97E1FF, #93AB8F);
+}
+
+.block3 {
+  width:400px;
+  height: 40px;
+  position:relative;
+}
+.block3:before {
+  content:"";
+  width:4px;
+  height:250%;
+  left:290%;
+  position:absolute;
+  background-image: -webkit-linear-gradient(top, #93AB8F, #FBE4D1);
+  background-image: -moz-linear-gradient( top, #93AB8F,#FBE4D1);
+  background-image: -ms-linear-gradient( top,#839e7e, #FBE4D1);
+  background-image: -o-linear-gradient( top, #93AB8F, #FBE4D1);
+  background-image: linear-gradient( top,  #93AB8F, #FBE4D1);
+}
+
+
+
+
