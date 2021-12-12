@@ -36,6 +36,7 @@
     bottom: 30%;
     padding: 20px;
   }
+  
   .timeline-badge {
     display: none;
     width: 40px;
@@ -359,7 +360,7 @@ section#About {
   background-color:white;
   background-repeat: no-repeat;
   background-position: center;
-  height:850px;
+  height:110%;
   padding: 30px;
 }
 #aboutheader{
