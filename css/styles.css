@@ -123,6 +123,7 @@
   z-index: 10;
 
 }
+
   .ct-btn-scroll {
     width: 49px;
     height: 49px;
@@ -688,7 +689,7 @@ section#roadmap {
   content: '';
   position: absolute;
   width: 3px;
-  height:428px;
+  height:528px;
   background: linear-gradient( #FBE4D1, #F9EAB9, #F5F782,#F3FE62);
   top: 0;
   bottom: 0;
@@ -736,11 +737,6 @@ section#roadmap {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-
-
-
-
-
 
 
 
