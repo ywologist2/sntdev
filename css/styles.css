@@ -11,6 +11,7 @@
 @media (prefers-reduced-motion: no-preference) {
   :root {
     overflow-x: hidden;
+ 
   }
 }
 @media (min-width: 768px) {
@@ -19,11 +20,52 @@
   }
 }
 
+/*--------------------------------------------------------------
+# Tablet Size
+--------------------------------------------------------------*/
+@media(min-width: 700px) {
+  #homequote{
+    background-color: #BDB1FF;
+    font-family: "Poppins";
+    color: white;
+    font-size: 15px;
+    font-weight:400;
+    width:380px;
+    height:130px;
+    position: absolute;
+    bottom: 30%;
+    padding: 20px;
+  }
+  
+  section#About {
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:1200px;
+    padding: 30px;
+  }
+  
+  #roadmap1{
+    background-color: #BDB1FF;
+    z-index:3;
+    width:100%;
+  }
+  
+  .responsive {
+    width: 70%;
+    height: 70%;
+  }
+  #centermobile{
+    padding-left:50px;
+  }
+}
+
 
 @media (max-width: 800px) {
   section {
     padding: 5rem 0;
   }
+
   #homequote{
     background-color: #BDB1FF;
     font-family: "Poppins";
@@ -49,7 +91,6 @@
     top: 16px;
     right: -3px;
     margin-left: -25px;
-    
     background-color: #F0F5FD;
     z-index: 100;
     border-top-right-radius: 50%;
@@ -121,10 +162,9 @@
   bottom: 0;
   right: 15px;
   z-index: 10;
-
 }
 
-  .ct-btn-scroll {
+.ct-btn-scroll {
     width: 49px;
     height: 49px;
     position: absolute;
@@ -135,7 +175,7 @@
     border-radius: 50%;
     -webkit-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
-  }
+}
 
   #image-marketing{
     float:right;
@@ -179,48 +219,18 @@
     width: 70%;
     height: 70%;
   }
-}
 
-@media(min-width: 700px) {
-#homequote{
-  background-color: #BDB1FF;
-  font-family: "Poppins";
-  color: white;
-  font-size: 15px;
-  font-weight:400;
-  width:380px;
-  height:130px;
-  position: absolute;
-  bottom: 30%;
-  padding: 20px;
-}
-
-section#About {
-  background-color:white;
-  background-repeat: no-repeat;
-  background-position: center;
-  height:1200px;
-  padding: 30px;
-}
-
-#roadmap1{
-  background-color: #BDB1FF;
-  z-index:3;
-  width:100%;
+  #centermobile{
+    padding-left:50px;
+  } 
 }
 
 
-
-.responsive {
-  width: 70%;
-  height: 70%;
-}
-}
+/*--------------------------------------------------------------
+# Mobile Size
+--------------------------------------------------------------*/
 @media (max-width: 480px) {
-  :root {
-    overflow-x: hidden;
-  }
-
+ 
   #image-marketing{
     float:right;
     width:150px;
@@ -233,7 +243,7 @@ section#About {
   }
   #creative{
     text-align: left;
-     overflow:hidden;
+    overflow:hidden;
    }
    
    #marketing{
@@ -262,8 +272,148 @@ section#About {
     width: 50%;
     height: 50%;
   }
+
+  #comicsstrip{
+    transition:transform 0.25s ease;
+  }
+
+  #comicsstrip:hover{
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+  }
+
+  #centermobile{
+    padding-left:10px;
+   
+  }
+
+  .navbar {
+    width: 390px !important;
+    background-color:transparent;
+    overflow: none;
+  }
+
+  #logo{
+    width:70px!important;
+    height:50px !important;
+    padding-right:20px !important;
+  }
+
+  #captiondiv{
+    width:90%;
+   padding-left:155px;
+  }
+
+  #menubar{
+    width:20px !important;;
+    height:20px !important;;
+  }
+  .twitter {
+    width:40px !important;
+    height:35px !important;
+    background: url("../assets/img/TwitterWhite.svg") no-repeat;
+  }
+  .twitter:hover {
+    background: url("../assets/img/TwitterInvert.svg") no-repeat;
+    width:40px !important;
+    height:35px !important;
+  }
   
+  .discord {
+    width:40px !important;
+    height:35px !important;
+    background: url("../assets/img/DiscordWhite.svg") no-repeat;
+  }
+  .discord:hover {
+    background: url("../assets/img/Discord_invert.svg") no-repeat;
+    width:40px !important;
+    height:35px !important;
+  }
+  .opensea {
+    width:40px !important;
+    height:35px !important;
+    background: url("../assets/img/OpenseaWhite.svg") no-repeat;
+  }
+  .opensea:hover {
+    background: url("../assets/img/Opensea-Invert.svg") no-repeat;
+    width:40px !important;
+    height:35px !important;
+  }
+  
+  .instagram {
+    width:40px !important;
+    height:35px !important;
+    background: url("../assets/img/instagramWhite.svg") no-repeat;
+  }
+  .instagram:hover {
+    background: url("../assets/img/instagramInvert.svg") no-repeat;
+    width:40px !important;
+    height:35px !important;
+  }
+  
+  .youtube{
+    width:40px !important;
+    height:35px !important;
+    background: url("../assets/img/youtubeWhite.svg") no-repeat;
+  }
+  .youtube:hover {
+    background: url("../assets/img/youtubeInvert.png") no-repeat;
+    width:40px !important;
+    height:35px !important;
+  }
+  html, body {
+    max-width:390px;
+    overflow-x: hidden; 
+  }
+  .hero {
+    height: 100vh;
+    width: 390px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+  }
+  #homequote{
+    background-color: #BDB1FF;
+    font-family: "Poppins";
+    color: white;
+    font-size: 14px;
+    font-weight:600;
+    width:375px;
+    height: 150px;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 100px;
+    left:0px;
+  }
+
+  #faqhead{
+    padding-left:10px !important;
+  }
+  #faq1{
+    background-color:#F5F5F5;
+    padding-left: 10px !important;
+    padding-right:10px!important;
+    
+  }
+  ul li {
+    float:left;
+    padding: 2px !important;
+    display: block;
+   
+  }
+  ul{
+    margin:0;
+    padding:0;
+    justify-content: right;
+    word-spacing:0;
+  }
+  li{ 
+    list-style-type:none;
+    display:inline-block; 
+    margin-right:.3px;
+  }
 }
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
@@ -273,20 +423,32 @@ section#About {
  
   }
 }
+
+/*--------------------------------------------------------------
+# Laptop Screen Size
+--------------------------------------------------------------*/
 @media (min-width: 1000px) {
 #homequote{
   background-color: #BDB1FF;
   font-family: "Poppins";
   color: white;
-  font-size: 25px;
-  font-weight:400;
+  font-size: 22px;
+  font-weight:600;
   width:800px;
   height: 150px;
   position: absolute;
   bottom: 20%;
-  padding: 20px;
-  left: 0px;  
+  padding-left: 100px;
+  left:0px;
 }
+.navbar {
+  width: 1250px;
+  background-color:transparent;
+  overflow: none;
+  padding-left:68px;
+  padding-right:40px;
+}
+
 #roadmap1{
   background-color: #BDB1FF;
   z-index:3;
@@ -315,7 +477,6 @@ section#About {
   padding:30px;
 }
 
-
 #image-marketing{
   float:right;
 }
@@ -343,16 +504,143 @@ section#About {
   font-size: 35px;
   color:#151515;
 }
+
 }
 
+/*--------------------------------------------------------------
+# Big Screen Size
+--------------------------------------------------------------*/
+@media (min-width: 1400px) {
+  .navbar {
+    width: 1850px !important;
+    background-color:transparent;
+    overflow: none;
+    padding-left:68px;
+    padding-right:0px !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # HeroBG
 --------------------------------------------------------------*/
+#menubar{
+  width:30px;
+  height:30px;
+}
+.twitter {
+  width:45px;
+  height:40px;
+  background: url("../assets/img/TwitterWhite.svg") no-repeat;
+}
+.twitter:hover {
+  background: url("../assets/img/TwitterInvert.svg") no-repeat;
+  width:45px;
+  height:40px;
+}
 
+.discord {
+  width:45px;
+  height:40px;
+  background: url("../assets/img/DiscordWhite.svg") no-repeat;
+}
+.discord:hover {
+  background: url("../assets/img/Discord_invert.svg") no-repeat;
+  width:45px;
+  height:40px;
+}
+.opensea {
+  width:45px;
+  height:40px;
+  background: url("../assets/img/OpenseaWhite.svg") no-repeat;
+}
+.opensea:hover {
+  background: url("../assets/img/Opensea-Invert.svg") no-repeat;
+  width:45px;
+  height:40px;
+}
 
+.instagram {
+  width:45px;
+  height:40px;
+  background: url("../assets/img/instagramWhite.svg") no-repeat;
+}
+.instagram:hover {
+  background: url("../assets/img/instagramInvert.svg") no-repeat;
+  width:45px;
+  height:40px;
+}
 
+.youtube{
+  width:45px;
+  height:40px;
+  background: url("../assets/img/youtubeWhite.svg") no-repeat;
+}
+.youtube:hover {
+  background: url("../assets/img/youtubeInvert.png") no-repeat;
+  width:45px;
+  height:40px;
+}
 
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+}
+#logo{
+  width:70px;
+  height:70px;
+}
+ul li {
+  float:left;
+  padding: 12px;
+  display: block;
+ 
+}
+ul{
+  margin:0;
+  padding:0;
+  justify-content: right;
+  word-spacing:0;
+}
+li{ 
+  list-style-type:none;
+  display:inline-block; 
+  margin-right:.3px;
+}
+
+#navigation-list {
+  list-style:none;
+  display:table;
+  width:100%;
+  text-align:right;
+  word-spacing:-.5em;
+  padding-left:0;
+  margin:0;
+}
+
+li.navigation-link {
+  display:inline-block;
+  word-spacing:0;
+  font-size:30px;
+  text-decoration:none;
+}
+
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 50px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
 
 /*--------------------------------------------------------------
 # About
@@ -363,32 +651,58 @@ section#About {
   background-position: center;
   height:110%;
   padding: 30px;
+  padding-bottom:96px;
 }
 #aboutheader{
   font-family: "Poppins";
   font-size: 50px;
   color:#FF4950;
   text-align:left;
-  
+  font-weight:500;
+  padding-left:15px;
 }
 
 #abtdesc{
   font-family: "Poppins";
-  font-size: 24px;
+  font-size: 18px;
   color:#0B3D69;
+  padding-left:15px;
 }
 #launch{
    float:right;
    font-family: "SF Pro";
    font-size: 18px;
    color: #FF7C44;
-   font-weight:bold;
+   font-weight:500; 
 }
 
 #comic{
   width: 400px;
   height: 180px;
 }
+#comicsstrip{
+  width:250px;
+  height:170px;
+  transition:transform 0.25s ease;
+}
+#comicsstrip:hover{
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+#captiondiv{
+   width:90%;
+  padding-left:155px;
+}
+#comiccaption{
+  font-family: "Poppins";
+  font-size: 15px;
+  color: #0B3D69;
+  font-style: italic;
+  text-align: center;
+}
+
+
 /*--------------------------------------------------------------
 # Photo Gallery
 --------------------------------------------------------------*/
@@ -426,13 +740,18 @@ div.gallery ul li img:hover {
 	left: 65%;
 }
 
+/* Create four equal columns that sits next to each other */
+.columns {
+  flex: 25%;
+  padding: 0 0px;
+}
 
-
-
+.columns img {
+  width: 100%;
+}
 /*--------------------------------------------------------------
 # Description
 --------------------------------------------------------------*/
-
 section#description {
   background-color: #0B3D69;
   background-repeat: no-repeat;
@@ -441,14 +760,15 @@ section#description {
   padding: 0rem 0 0;
 }
 #traitsdiv{
-  padding-left: 200px;
+  padding-left: 50px;
 }
 
 #traitstitle{
   font-family: "Poppins";
-  font-size:40px;
+  font-size:30px;
   font-weight: 300;
   color:#ECFE52;
+  font-weight:600;
 }
 
 .traits {
@@ -465,7 +785,7 @@ section#description {
   font-family:"Playfair Display";
   font-size:20px;
   color:#ECFE52;
-  width: 120%;
+  width: 100%;
 }
 #num{
   font-family:"Poppins";
@@ -474,17 +794,20 @@ section#description {
   font-weight: 300;
 }
 #desc3{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size: 30px;
   color:#E4E4E4;
   text-align: left;
+  font-weight:600;
 }
 #desc4{
   font-family: "Poppins";
   font-size: 20px;
   color:#E4E4E4;
   text-align: left;
+  font-weight:500;
 }
+
 
 /*--------------------------------------------------------------
 # Roadmap
@@ -495,68 +818,72 @@ section#roadmap {
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
+  padding-top:96px;
+  padding-bottom:96px;
 }
-
 
 #roadmap1{
   background-color: #BDB1FF;
   z-index:3;
 }
 
-
 #p1_0{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size:80px;
   color:white;
+  font-weight:1000;
 }
 #p1_1{
-  font-family: "Playfair Display";
-  font-size: 30px;
+  font-family: "Poppins";
+  font-size: 28px;
   color:#FDD902;
+  font-weight:500;
 }
 
 #p1_2{
   font-family: "Poppins";
   font-size: 20px;
-  color:#151515;
+  color:#363636;
 }
-
 
 #roadmap2{
   background-color: #97E1FF;
 }
 
 #p2_0{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size:80px;
   color:white;
+  font-weight:1000;
 }
 #p2_1{
-  font-family: "Playfair Display";
-  font-size: 25px;
+  font-family: "Poppins";
+  font-size: 28px;
   color:#FF4950;
+  font-weight:500;
 }
 
 #p2_2{
   font-family: "Poppins";
   font-size: 20px;
-  color:#151515;
+  color:#363636;
 }
-
 
 #roadmap3{
   background-color:#93AB8F;
 }
 
 #p3_0{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size:80px;
   color:white;
+  font-weight:1000;
 }
 #p3_1{
-  font-family: "Playfair Display";
-  font-size: 25px;
+  font-family: "Poppins";
+  font-size: 28px;
   color:#FBF9F4;
+  font-weight:500;
 }
 
 #p3_2{
@@ -570,14 +897,16 @@ section#roadmap {
 }
 
 #p4_0{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size:80px;
-  color:#A2A2A2;
+  color:white;
+  font-weight:1000;
 }
 #p4_1{
-  font-family: "Playfair Display";
-  font-size: 30px;
+  font-family: "Poppins";
+  font-size: 28px;
   color:#006D7A;
+  font-weight:500;
 }
 
 #p4_2{
@@ -586,28 +915,28 @@ section#roadmap {
   color:#151515;
 }
 
-
 #roadmap5{
   background-color:#F3FE62;
 }
 
 #p5_0{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size:80px;
-  color:#A2A2A2;
+  color:white;
+  font-weight:1000;
 }
 #p5_1{
-  font-family: "Playfair Display";
-  font-size: 30px;
-  color:#FF4950
+  font-family: "Poppins";
+  font-size: 28px;
+  color:#FF4950;
+  font-weight:500;
 }
 
 #p5_2{
   font-family: "Poppins";
   font-size: 20px;
-  color:#151515;
+  color:#646464;
 }
-
 
 /* The actual timeline (the vertical ruler) */
 .timeline1 {
@@ -622,7 +951,7 @@ section#roadmap {
   content: '';
   position: absolute;
   width: 3px;
-  height:428px;
+  height:458px;
   background: linear-gradient( #BDB1FF,#B9B6FF, #A9CBFF,#97E1FF);
   top: 0;
   bottom: 0;
@@ -644,7 +973,7 @@ section#roadmap {
   content: '';
   position: absolute;
   width: 3px;
-  height:428px;
+  height:458px;
   background: linear-gradient( #97E1FF,#96D3E2, #94B9AC,#93AB8F);
   top: 0;
   bottom: 0;
@@ -666,7 +995,7 @@ section#roadmap {
   content: '';
   position: absolute;
   width: 3px;
-  height:428px;
+  height:458px;
   background: linear-gradient( #93AB8F, #AAB79E, #D9D1BB,#FBE4D1);
   top: 0;
   bottom: 0;
@@ -674,7 +1003,6 @@ section#roadmap {
   z-index: 10;
 
 }
-
 
 /* The actual timeline (the vertical ruler) */
 .timeline4 {
@@ -718,19 +1046,17 @@ section#roadmap {
 
 }
 .timeline-badge {
- 
   width: 40px;
   height: 40px;
-  line-height: 50px;
+  line-height: 42px;
   font-size: 1.4em;
   text-align: center;
-  color:white;
+  color:#A3A3A3;
   position: absolute;
-  top: 16px;
+  top: 15px;
   right: -3px;
   margin-left: -25px;
-  
-  background-color: #F0F5FD;
+  background-color: #D6E1F2;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -738,6 +1064,10 @@ section#roadmap {
   border-bottom-left-radius: 50%;
 }
 
+.responsive {
+  width: 100%;
+  height: 100%;
+}
 
 
 /*--------------------------------------------------------------
@@ -749,18 +1079,35 @@ section#faq {
   background-position: center;
   height: 100%;
   padding: 0rem 0 0;
+  padding-bottom:60px;
 }
 
+#faqheader{
+  font-family: "Poppins";
+  font-size: 50px;
+  color:#FF67A3;
+  text-align:left;
+  font-weight:500;
+
+}
+#faqhead{
+  padding-left:120px;
+}
+
+
 #faqdesc{
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   font-size: 20px;
   color:#000000;
-  text-align: left;
+  width:75%;
+  font-weight:450;
 }
 
 #faq1{
   background-color:#F5F5F5;
-  padding: 15px;
+  padding-left: 100px;
+  padding-right:100px;
+  
 }
 
 #faqqn{
@@ -774,13 +1121,26 @@ section#faq {
   font-size: 16px;
   color:#363636;
 }
-
+#discordlink { color: black; }
 
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+section#team {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom:96px;
+}
 
+#aboutteam{
+  font-family: "Poppins";
+  font-size: 50px;
+  color:#1E9EE2;
+  text-align:left;
+  
+}
 
 #profilepic{
   width: 120px;
@@ -789,14 +1149,14 @@ section#faq {
 #teampos{
   font-family: "Playfair Display";
   font-size: 22px;
-  color:#33793E;
+  color:#1E9EE2;
   font-weight:bold;
 }
 
 #teamdesc{
   font-family: "Poppins";
   font-size: 14px;
-  color:#33793E;
+  color:#343434;
 }
 
 /*--------------------------------------------------------------
@@ -809,11 +1169,88 @@ section#faq {
 }
 #tncheader{
   font-family: "Poppins";
-  font-size: 14 px;
+  font-size: 25px;
   color:#151515;
   font-weight:bold;
 }
+.termsbody{
+  padding-left:100px;
+  padding-right:100px;
+}
 
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footerbadge{
+  width:30px;
+  height:30px;
+}
+.footer {
+  background-color: #33793E;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: white;
+}
+
+.twitter1 {
+  width:30px;
+  height:30px;
+  background: url("../assets/img/TwitterWhite.svg") no-repeat;
+}
+.twitter1:hover {
+  background: url("../assets/img/TwitterInvert.svg") no-repeat;
+  width:30px;
+  height:30px;
+}
+
+.discord1 {
+  width:30px;
+  height:30px;
+  background: url("../assets/img/DiscordWhite.svg") no-repeat;
+}
+.discord1:hover {
+  background: url("../assets/img/Discord_invert.svg") no-repeat;
+  width:30px;
+  height:30px;
+}
+.opensea1 {
+  width:30px;
+  height:30px;
+  background: url("../assets/img/OpenseaWhite.svg") no-repeat;
+}
+.opensea1:hover {
+  background: url("../assets/img/Opensea-Invert.svg") no-repeat;
+  width:30px;
+  height:30px;
+}
+
+.instagram1 {
+  width:30px;
+  height:30px;
+  background: url("../assets/img/instagramWhite.svg") no-repeat;
+}
+.instagram1:hover {
+  background: url("../assets/img/instagramInvert.svg") no-repeat;
+  width:30px;
+  height:30px;
+}
+
+.youtube1{
+  width:30px;
+  height:30px;
+  background: url("../assets/img/youtubeWhite.svg") no-repeat;
+}
+.youtube1:hover {
+  background: url("../assets/img/youtubeInvert.png") no-repeat;
+  width:30px;
+  height:30px;
+}
+
+/*--------------------------------------------------------------
+# Others
+--------------------------------------------------------------*/
 
 h1{
   font-family: "Poppins";
@@ -832,192 +1269,8 @@ h3{
 }
 
 
-.hero {
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; 
-}
-
-.spacing{
-  padding: 3rem 0;
-}
-/* Create four equal columns that sits next to each other */
-.columns {
-  flex: 25%;
-  padding: 0 0px;
-}
-
-.columns img {
-  width: 100%;
-}
 
 
-
-
-.responsive {
-  width: 100%;
-  height: 100%;
-}
-
-
-
-
-#teamm{
-  text-align: right;
-  font-family: "Playfair Display";
-  font-size: 35px;
-  color:#151515;
-}
-
-#teamc{
-  text-align: left;
-  font-family: "Playfair Display";
-  font-size: 35px;
-  color:#151515;
-}
-
-
-
-section#team {
-  background-color: #FBF9F4;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#desc1{
-  font-family: "Playfair Display";
-  font-size: 25px;
-  color:#F3FE62;
-  text-align: left;
-
-}
-#desc2{
-  font-family: "Poppins";
-  font-size: 20px;
-  color:#FFFFFF;
-  text-align: left;
-}
-.footerbadge{
-  width:30px;
-  height:30px;
-}
-.footer {
-  background-color: #33793E;
-  text-align: center;
-  font-size: 20px;
-  font-family: "Playfair Display";
-  color: white;
-}
-
-.navbar {
-  width: 100%;
-  background-color:transparent;
-  overflow: none;
-}
-ul{
-  margin:0;
-  padding:0;
-  justify-content: right;
- 
-  word-spacing:0;
-}
-li{
-  
-  list-style-type:none;
-  display:inline-block; 
-  margin-right:.3px;
-
-}
-
-#navigation-list {
-  list-style:none;
-  display:table;
-  width:100%;
-  text-align:right;
-  word-spacing:-.5em;
-  padding-left:0;
-  margin:0;
-}
-
-
-li.navigation-link {
-  display:inline-block;
-  word-spacing:0;
-  font-size:18px;
-  text-decoration:none;
-}
-
-.ct-btn-scroll {
-  width: 49px;
-  height: 49px;
-  position: absolute;
-  bottom: 10%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding-top: 50px;
-  z-index: 9;
-  border-radius: 50%;
-  -webkit-transition: background-color 0.25s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-}
-
-
-.block1 {
-  width:400px;
-  height: 40px;
-  position:relative;
-}
-.block1:before {
-  content:"";
-  width:4px;
-  height:250%;
-  left:290%;
-  position:absolute;
-  background-image: -webkit-linear-gradient(top, #BDB1FF, #97E1FF);
-  background-image: -moz-linear-gradient( top,#BDB1FF, #97E1FF);
-  background-image: -ms-linear-gradient( top,#BDB1FF, #97E1FF);
-  background-image: -o-linear-gradient( top,#BDB1FF, #97E1FF);
-  background-image: linear-gradient( top,#BDB1FF, #97E1FF);
-}
-
-.block2 {
-  width:400px;
-  height: 40px;
-  position:relative;
-}
-.block2:before {
-  content:"";
-  width:4px;
-  height:250%;
-  left:290%;
-  position:absolute;
-  background-image: -webkit-linear-gradient(top, #97E1FF, #93AB8F);
-  background-image: -moz-linear-gradient( top, #97E1FF,#93AB8F);
-  background-image: -ms-linear-gradient( top, #97E1FF,#93AB8F);
-  background-image: -o-linear-gradient( top, #97E1FF, #93AB8F);
-  background-image: linear-gradient( top, #97E1FF, #93AB8F);
-}
-
-.block3 {
-  width:400px;
-  height: 40px;
-  position:relative;
-}
-.block3:before {
-  content:"";
-  width:4px;
-  height:250%;
-  left:290%;
-  position:absolute;
-  background-image: -webkit-linear-gradient(top, #93AB8F, #FBE4D1);
-  background-image: -moz-linear-gradient( top, #93AB8F,#FBE4D1);
-  background-image: -ms-linear-gradient( top,#839e7e, #FBE4D1);
-  background-image: -o-linear-gradient( top, #93AB8F, #FBE4D1);
-  background-image: linear-gradient( top,  #93AB8F, #FBE4D1);
-}
 
 
 
