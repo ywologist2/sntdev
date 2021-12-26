@@ -229,6 +229,7 @@
 /*--------------------------------------------------------------
 # Mobile Size
 --------------------------------------------------------------*/
+
 @media (max-width: 480px) {
  
   #image-marketing{
@@ -288,7 +289,7 @@
   }
 
   .navbar {
-    width: 390px !important;
+    width: 420px !important;
     background-color:transparent;
     overflow: none;
   }
@@ -362,7 +363,7 @@
     height:35px !important;
   }
   html, body {
-    max-width:390px;
+    max-width:450px;
     overflow-x: hidden; 
   }
   .hero {
@@ -378,16 +379,16 @@
     color: white;
     font-size: 14px;
     font-weight:600;
-    width:375px;
-    height: 150px;
+    width:320px;
+    height: 165px;
     position: absolute;
     bottom: 20%;
-    padding-left: 100px;
+    padding-left:60px;
     left:0px;
   }
 
   #faqhead{
-    padding-left:10px !important;
+    padding-left:40px !important;
   }
   #faq1{
     background-color:#F5F5F5;
@@ -412,6 +413,35 @@
     display:inline-block; 
     margin-right:.3px;
   }
+  #teampos{
+    font-family: "Playfair Display";
+    font-size: 20px!important;
+    color:#1E9EE2;
+    font-weight:bold;
+  }
+  #aboutteam{
+    font-family: "Poppins";
+    font-size: 50px;
+    color:#1E9EE2;
+    text-align:left;
+    padding-left:40px !important;
+  }
+  #launch{
+    font-family: "SF Pro";
+    font-size: 18px !important;
+    color: #FF7C44;
+    font-weight:500; 
+    float:right;
+    position:relative;
+    top:1px !important;
+ }
+ .footer {
+  background-color: #33793E;
+  text-align: center;
+  font-size: 13px!important;
+  font-family: "Playfair Display";
+  color: white;
+}
 }
 
 
@@ -668,12 +698,15 @@ section#About {
   color:#0B3D69;
   padding-left:15px;
 }
+
 #launch{
-   float:right;
    font-family: "SF Pro";
    font-size: 18px;
    color: #FF7C44;
    font-weight:500; 
+   float:right;
+   position:relative;
+   top:30px;
 }
 
 #comic{
@@ -1139,7 +1172,6 @@ section#team {
   font-size: 50px;
   color:#1E9EE2;
   text-align:left;
-  
 }
 
 #profilepic{
