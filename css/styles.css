@@ -307,10 +307,11 @@
   }
 
   .navbar {
-    width: 400px !important;
+    width: 500px !important;
     background-color:transparent;
     overflow: none;
-    
+    padding-left:10px;
+    padding-right:85px
   }
 
   #logo{
