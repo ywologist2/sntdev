@@ -13,12 +13,17 @@
     overflow-x: hidden;
  
   }
+  html, body {
+    max-width:2400px;
+    overflow-x: hidden; 
+  }
 }
 @media (min-width: 768px) {
   section {
     padding: 3rem 0;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Tablet Size
@@ -58,14 +63,27 @@
   #centermobile{
     padding-left:50px;
   }
+  .navbar {
+    width: 1250px !important;
+    background-color:transparent;
+    overflow: none;
+    padding-left:68px;
+    padding-right:40px;
+  }
 }
-
 
 @media (max-width: 800px) {
   section {
     padding: 5rem 0;
   }
-
+  .navbar {
+    width: 450px !important;
+    background-color:transparent;
+    overflow: none;
+    padding-left:68px;
+    padding-right:40px;
+  }
+  
   #homequote{
     background-color: #BDB1FF;
     font-family: "Poppins";
@@ -289,9 +307,10 @@
   }
 
   .navbar {
-    width: 420px !important;
+    width: 400px !important;
     background-color:transparent;
     overflow: none;
+    
   }
 
   #logo{
@@ -358,7 +377,7 @@
     background: url("../assets/img/youtubeWhite.svg") no-repeat;
   }
   .youtube:hover {
-    background: url("../assets/img/youtubeInvert.png") no-repeat;
+    background: url("../assets/img/youtubeInvert-01.png") no-repeat;
     width:40px !important;
     height:35px !important;
   }
@@ -465,7 +484,8 @@
 /*--------------------------------------------------------------
 # Laptop Screen Size
 --------------------------------------------------------------*/
-@media (min-width: 1000px) {
+
+@media (min-width: 900px) {
 #homequote{
   background-color: #BDB1FF;
   font-family: "Poppins";
@@ -554,7 +574,7 @@
     background-color:transparent;
     overflow: none;
     padding-left:68px;
-    padding-right:0px !important;
+    padding-right:150px !important;
   }
 }
 
@@ -614,7 +634,7 @@
   background: url("../assets/img/youtubeWhite.svg") no-repeat;
 }
 .youtube:hover {
-  background: url("../assets/img/youtubeInvert.png") no-repeat;
+  background: url("../assets/img/youtubeInvert-01.svg") no-repeat;
   width:45px;
   height:40px;
 }
@@ -751,6 +771,7 @@ section#Gallery {
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
+  width:auto;
   height: auto;
   padding: 0rem 0 0;
 }
@@ -766,9 +787,9 @@ div.gallery ul li img {
 	position: absolute;
 	left: 0;
 	top: 0;
-	padding: 0px;
-	width: 130px;
-	height: 130px;
+	padding: 0 0 0 0px;
+  width: 200px;
+	height: 200px;
 	background: #f0f0f0;
 }
 
@@ -785,6 +806,7 @@ div.gallery ul li img:hover {
 .columns {
   flex: 25%;
   padding: 0 0px;
+ 
 }
 
 .columns img {
@@ -1230,8 +1252,9 @@ section#team {
   background-color: #33793E;
   text-align: center;
   font-size: 20px;
-  font-family: "Playfair Display";
+  font-family: "Poppins";
   color: white;
+
 }
 
 .twitter1 {
@@ -1283,7 +1306,7 @@ section#team {
   background: url("../assets/img/youtubeWhite.svg") no-repeat;
 }
 .youtube1:hover {
-  background: url("../assets/img/youtubeInvert.png") no-repeat;
+  background: url("../assets/img/youtubeInvert-01.svg") no-repeat;
   width:30px;
   height:30px;
 }
@@ -1307,8 +1330,6 @@ h3{
   font-size: 50px;
   color: white;
 }
-
-
 
 
 
