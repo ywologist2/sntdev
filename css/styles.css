@@ -218,14 +218,14 @@
 
    #teamm{
     text-align: right;
-    font-family: "Playfair Display";
+    font-family: "Poppins";
     font-size: 35px;
     color:#151515;
   }
   
   #teamc{
     text-align: left;
-    font-family: "Playfair Display";
+    font-family: "Poppins";
     font-size: 35px;
     color:#151515;
   }
@@ -272,14 +272,14 @@
 
    #teamm{
     text-align: right;
-    font-family: "Playfair Display";
+    font-family: "Poppins";
     font-size: 25px;
     color:#151515;
   }
   
   #teamc{
     text-align: right;
-    font-family: "Playfair Display";
+    font-family: "Poppins";
     font-size: 25px;
     color:#151515;
   }
@@ -466,9 +466,17 @@
  .footer {
   background-color: #33793E;
   text-align: center;
-  font-size: 13px!important;
+  font-size: 17px!important;
   font-family: "Playfair Display";
   color: white;
+}
+
+#faqqn{
+  font-family: "Poppins";
+  font-size:30px;
+  color:#FF67A3;
+  font-weight:550;
+  line-height: 1.1;
 }
 }
 
@@ -986,7 +994,7 @@ section#roadmap {
 #p5_0{
   font-family: "Poppins";
   font-size:80px;
-  color:white;
+  color:#FF474F;
   font-weight:1000;
 }
 #p5_1{
