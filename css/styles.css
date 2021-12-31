@@ -397,7 +397,7 @@
     background-color: #BDB1FF;
     font-family: "Poppins" !important;
     color: white;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight:600;
     width:320px;
     height: 165px;
