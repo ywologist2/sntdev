@@ -19,8 +19,8 @@
   </head>
   <body>
     <!-- Navbar  -->
-    <div class="hero" style="background-image: url('../assets/img/HeroBG.png'); ">
-      
+    <div class="hero" >
+     
         <div class="navbar">
          
           <ul>
@@ -580,12 +580,26 @@
       });
     </script>
     <script>
-      hljs.initHighlightingOnLoad();
-      $('.hero__scroll').on('click', function(e) {
-        $('html, body').animate({
-          scrollTop: $(window).height()
-        }, 1200);
-      });
+      var i = 0;
+      var images = []; //array
+      images[0] = "url(../assets/img/HeroBG1.png)";
+      images[1] = "url(../assets/img/HeroBG2.png)";
+      images[2] = "url(../assets/img/HeroBG.png)";
+
+      function changeImage() {
+         
+          elem = document.querySelector('.hero');
+          elem.style.backgroundImage = images[i];
+          if (i < images.length - 1) {
+              i++;
+          } else {
+              i = 0;
+          }
+
+            setTimeout(changeImage, 2000);
+      }
+      changeImage();
+   
     </script>
   </body>
 </html>
