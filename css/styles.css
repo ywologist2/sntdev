@@ -31,7 +31,7 @@
 @media(min-width: 700px) {
   #homequote{
     background-color: #BDB1FF;
-    font-family: "Poppins";
+    font-family: "Poppins" !important;
     color: white;
     font-size: 15px;
     font-weight:400;
@@ -395,7 +395,7 @@
   }
   #homequote{
     background-color: #BDB1FF;
-    font-family: "Poppins";
+    font-family: "Poppins" !important;
     color: white;
     font-size: 14px;
     font-weight:600;
