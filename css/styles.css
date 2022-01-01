@@ -31,7 +31,7 @@
 @media(min-width: 700px) {
   #homequote{
     background-color: #BDB1FF;
-    font-family: "Poppins" !important;
+    font-family: "Poppins";
     color: white;
     font-size: 15px;
     font-weight:400;
@@ -69,7 +69,16 @@
     overflow: none;
     padding-left:68px;
     padding-right:40px;
+    z-index:10;
+    top:0;
+
   }
+  #carouselExampleIndicators{
+    position:absolute;
+    width:100%;
+    top:0;
+  }
+  
 }
 
 @media (max-width: 800px) {
@@ -82,7 +91,15 @@
     overflow: none;
     padding-left:68px;
     padding-right:40px;
+    z-index:10;
+    top:0;
   }
+  #carouselExampleIndicators{
+    position:absolute;
+    width:100%;
+    top:0;
+  }
+  
   
   #homequote{
     background-color: #BDB1FF;
@@ -311,8 +328,16 @@
     background-color:transparent;
     overflow: none;
     padding-left:10px;
-    padding-right:85px
+    padding-right:85px;
+    z-index:10;
+    top:0;
   }
+  #carouselExampleIndicators{
+    position:absolute;
+    width:100%;
+    top:0;
+  }
+  
 
   #logo{
     width:70px!important;
@@ -378,7 +403,7 @@
     background: url("../assets/img/youtubeWhite.svg") no-repeat;
   }
   .youtube:hover {
-    background: url("../assets/img/youtubeInvert-01.png") no-repeat;
+    background: url("../assets/img/youtubeInvert-01.svg") no-repeat;
     width:40px !important;
     height:35px !important;
   }
@@ -392,12 +417,13 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
+    background-image: url('../assets/img/HeroBG1.png');
   }
   #homequote{
     background-color: #BDB1FF;
     font-family: "Poppins" !important;
     color: white;
-    font-size: 14px !important;
+    font-size: 14px;
     font-weight:600;
     width:320px;
     height: 165px;
@@ -478,6 +504,11 @@
   font-weight:550;
   line-height: 1.1;
 }
+.bgimg{
+  width: 414px;
+  height:800px;
+}
+
 }
 
 
@@ -514,6 +545,17 @@
   overflow: none;
   padding-left:68px;
   padding-right:40px;
+}
+
+#carouselExampleIndicators{
+  position:absolute;
+  width:100%;
+  top:0;
+}
+
+.bgimg{
+  width: 1200;
+  height:800px;
 }
 
 #roadmap1{
@@ -584,7 +626,14 @@
     overflow: none;
     padding-left:68px;
     padding-right:150px !important;
+    z-index:10;
+    top:0;
   }
+  .bgimg{
+    width: 1900px;
+    height:800px;
+  }
+ 
 }
 
 /*--------------------------------------------------------------
@@ -654,6 +703,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
+  background-image: url('../assets/img/HeroBG1.png');
 }
 #logo{
   width:70px;
@@ -708,7 +758,16 @@ li.navigation-link {
   -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
 }
-
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+section#headersection {
+  background-color:white;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:750px;
+  padding-bottom:96px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -719,6 +778,7 @@ section#About {
   height:110%;
   padding: 30px;
   padding-bottom:96px;
+
 }
 #aboutheader{
   font-family: "Poppins";
