@@ -30,7 +30,7 @@
 --------------------------------------------------------------*/
 @media(min-width: 700px) {
   #homequote{
-    background-color: #BDB1FF;
+    background-color: #2020FF;
     font-family: "Poppins";
     color: white;
     font-size: 15px;
@@ -102,7 +102,7 @@
   
   
   #homequote{
-    background-color: #BDB1FF;
+    background-color: #2020FF;
     font-family: "Poppins";
     color: white;
     font-size: 15px;
@@ -112,6 +112,7 @@
     position: absolute;
     bottom: 30%;
     padding: 20px;
+    padding-top:40px;
   }
   
   .timeline-badge {
@@ -413,7 +414,7 @@
   }
 
   #homequote{
-    background-color: #BDB1FF;
+    background-color: #2020FF;
     font-family: "Poppins" !important;
     color: white;
     font-size: 14px!important;
@@ -424,6 +425,8 @@
     bottom: 20%;
     padding-left:60px;
     left:0px;
+    padding-top:40px;
+    
   }
 
   #faqhead{
@@ -537,10 +540,9 @@
 /*--------------------------------------------------------------
 # Laptop Screen Size
 --------------------------------------------------------------*/
-
 @media (min-width: 900px) {
 #homequote{
-  background-color: #BDB1FF;
+  background-color: #2020FF;
   font-family: "Poppins";
   color: white;
   font-size: 22px;
@@ -551,6 +553,7 @@
   bottom: 20%;
   padding-left: 100px;
   left:0px;
+  padding-top:40px;
 }
 .navbar {
   width: 1250px;
@@ -852,6 +855,13 @@ section#About {
   text-align: center;
 }
 
+.pillbutton{
+  width:150px;
+  background-color: #FFFFFF;
+  color:#2020FF;
+  text-decoration: none !important
+  
+}
 
 /*--------------------------------------------------------------
 # Photo Gallery
@@ -1419,7 +1429,6 @@ h3{
   font-size: 50px;
   color: white;
 }
-
 
 
 
